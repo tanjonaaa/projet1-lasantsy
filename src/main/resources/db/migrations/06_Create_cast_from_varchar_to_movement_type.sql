@@ -1,0 +1,1 @@
+create cast ( varchar as movement_type ) with inout as implicit;
