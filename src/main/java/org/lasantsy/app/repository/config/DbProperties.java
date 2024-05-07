@@ -1,4 +1,4 @@
-package org.lasantsy.lasantsy.repository.config;
+package org.lasantsy.app.repository.config;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
