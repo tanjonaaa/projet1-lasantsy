@@ -1,4 +1,4 @@
-package org.lasantsy.app.model.enums;
+package org.lasantsy.app.entity.enums;
 
 public enum MovementType {
   SALE,

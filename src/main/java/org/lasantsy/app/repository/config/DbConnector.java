@@ -17,10 +17,13 @@ public class DbConnector {
 
     @Bean
     public Connection getConnection() throws SQLException {
-        return DriverManager.getConnection(
+        Connection connection = DriverManager.getConnection(
                 dbProperties.getUrl(),
                 dbProperties.getUser(),
                 dbProperties.getPassword()
         );
+
+        connection.setAutoCommit(false);
+        return connection;
     }
 }
